@@ -12,9 +12,9 @@ public class StartSpider {
 
     public static void main(String args[]){
        Spider spider = new  Spider(new MoocProcessor());//
-        spider.addUrl("http://www.imooc.com/view/5")
+        spider.addUrl("http://www.imooc.com/view/11")
                 .addPipeline(new MoocPipeline());
-                spider.setEmptySleepTime(10000);
+//                spider.setEmptySleepTime(10000);
         spider.run();
     }
 

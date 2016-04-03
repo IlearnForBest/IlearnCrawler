@@ -1,5 +1,6 @@
 package com.crawler.pageProcessor;
 
+import com.crawler.util.DBConnection;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.processor.PageProcessor;
@@ -14,23 +15,30 @@ import java.util.regex.Pattern;
 public class MoocProcessor implements PageProcessor{
     private Site site = new Site();
 
+    private DBConnection db = new DBConnection();
+
     public void process(Page page) {
 
 
         String url = page.getUrl().toString();
-        String imgurl = page.getHtml().xpath("//img[@id='js-cover-img']").toString();
-        String classify = page.getHtml().xpath("//div[@class='path']/a[2]").toString();
-        String title = page.getHtml().xpath("//div[@class='path']/a[3]").toString();
+      //  String imgurl = page.getHtml().xpath("//img[@id='js-cover-img']").toString();
+        String category_1 = "IT/计算机";
+        String category_2 = page.getHtml().xpath("//div[@class='path']/a[2]").toString();
+        String category_3 = page.getHtml().xpath("//div[@class='path']/a[3]").toString();
+        String title = page.getHtml().xpath("//div[@class='path']/span").toString();
 
-
+//        System.out.println("in......");
 
         if(title != null){
             title = processTitleAndClassify(title);
-            classify = processTitleAndClassify(classify);
-            System.out.println(classify+title+url);
+            category_2 = processTitleAndClassify(category_2);
+            category_3 = processTitleAndClassify(category_3);
+            System.out.println(title+"  "+url+"  "+category_1+"  "
+                    +category_2+"  "+category_3);
+
+            db.insert(title,url,"",category_1,category_2,category_3);
 
         }
-
 
         page.addTargetRequest(addNewUrl(page.getUrl().toString()));
 
