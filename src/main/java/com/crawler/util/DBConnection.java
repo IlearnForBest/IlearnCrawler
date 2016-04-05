@@ -178,7 +178,7 @@ public class DBConnection {
 
     public List<String> qureyFromTemp(){
         List<String> urls = new ArrayList<String>();
-        String sql = "select * from temp";
+        String sql = "select * from temp limit 7120,7138";
         Connection cnn = getConn();//此处为通过自己写的方法getConn()获得连接
         try
         {
