@@ -12,10 +12,13 @@ public class StartSpider {
 
 
     public static void main(String args[]){
-       Spider spider = new  Spider(new MoocProcessorImg());//
+//       Spider spider = new  Spider(new MoocProcessorImg());//
 //        spider.addUrl("http://www.imooc.com/view/347");
+//        spider.addUrl("http://www.imooc.com/course/list?page=24");
+//        spider.run();
 
-        spider.addUrl("http://www.imooc.com/course/list?page=24");
+        Spider spider = new  Spider(new MoocProcessor());//
+        spider.addUrl("http://www.imooc.com/view/474");
         spider.run();
     }
 
