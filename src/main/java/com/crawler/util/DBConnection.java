@@ -13,7 +13,7 @@ public class DBConnection {
     private String dbDriver="com.mysql.jdbc.Driver";
     private String dbUrl="jdbc:mysql://localhost:3306/db_ilearn?useUnicode=true&characterEncoding=utf-8";//根据实际情况变化
     private String dbUser="root";
-    private String dbPass="root";
+    private String dbPass="111111";
 
 
     /**
@@ -79,7 +79,7 @@ public class DBConnection {
      */
     public void update(String imgurl , String title){
         int i=0;
-        String sql="update ilearn_res set imgurl=? where title=?";
+        String sql="update ilearn_it_com set imgurl=? where title=?";
         Connection cnn=getConn();
 
         try{

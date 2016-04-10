@@ -19,7 +19,7 @@ public class MoocProcessor implements PageProcessor{
 
     public void process(Page page) {
 
-
+        String satisfaction = null;
         String url = page.getUrl().toString();
       //  String imgurl = page.getHtml().xpath("//img[@id='js-cover-img']").toString();
         String category_1 = "IT/互联网";
@@ -29,9 +29,9 @@ public class MoocProcessor implements PageProcessor{
 
         String join_number = page.getHtml().xpath("//div[@class='statics clearfix']/div[3]/span[1]/strong").toString();
         String remark = page.getHtml().xpath("//p[@class='person-num noLogin']/a").toString();
-        String satisfaction = page.getHtml().xpath("//div[@class='satisfaction-degree-info']/h4").toString();
+        String grade = page.getHtml().xpath("//div[@class='satisfaction-degree-info']/h4").toString();
 
-        System.out.println(satisfaction);
+//        System.out.println(grade);
 
         if(title != null){
             title = processTitleAndClassify(title);
@@ -40,13 +40,16 @@ public class MoocProcessor implements PageProcessor{
 
             join_number = processTitleAndClassify(join_number);
             remark = processRemark(remark);
-            satisfaction = processTitleAndClassify(satisfaction);
+            grade = processTitleAndClassify(grade);
 
             System.out.println(title+"  "+url+"  "+category_1+"  "
                     +category_2+"  "+category_3 + "  "+"学习人数:"+join_number+
-                    "  "+"评论数:" + remark + "  "+"满意度:" + satisfaction);
+                    "  "+"评论数:" + remark + "  "+"满意度:" + grade);
 
          //   db.insert(title,url,"",category_1,category_2,category_3);
+
+            db.insertintoit(title,url,null,category_2,category_3,0,Integer.parseInt(remark),
+                    0,Double.parseDouble(grade),Integer.parseInt(join_number),"慕课网");
 
         }
 

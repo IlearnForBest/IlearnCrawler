@@ -17,8 +17,8 @@ public class StartSpider {
 //        spider.addUrl("http://www.imooc.com/course/list?page=24");
 //        spider.run();
 
-        Spider spider = new  Spider(new MoocProcessor());//
-        spider.addUrl("http://www.imooc.com/view/474");
+        Spider spider = new  Spider(new MoocProcessorImg());//
+        spider.addUrl("http://www.imooc.com/course/list?page=24");
 
 //        慕课网
 //       Spider spider = new  Spider(new MoocProcessorImg());//
