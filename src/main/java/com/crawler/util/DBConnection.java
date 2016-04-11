@@ -95,21 +95,63 @@ public class DBConnection {
     }
 
 
+    public void updateValue( String value1 ,String value2){
+        int i=0;
+        String sql="update ilearn_it_com set category_1=? where category_2=?";
+//        String sql="update ilearn_it_com set category_2=? where rid=?";
 
-   /*
+        Connection cnn=getConn();
+
+        try{
+            PreparedStatement preStmt =cnn.prepareStatement(sql);
+            preStmt.setString(1,value1);
+            preStmt.setString(2,value2);//或者：preStmt.setInt(1,值);
+            i=preStmt.executeUpdate();
+        }
+        catch (SQLException e) {
+            e.printStackTrace();
+        }
+//        return i;//返回影响的行数，1为执行成功
+    }
+
+
+
+    public void updateSelf( String key ,String oldValue , String newValue){
+        int i=0;
+        String sql="update ilearn_it_com set "+key+"=? where "+key+"=?";
+//        String sql="update ilearn_it_com set category_2=? where rid=?";
+
+        Connection cnn=getConn();
+
+        try{
+            PreparedStatement preStmt =cnn.prepareStatement(sql);
+            preStmt.setString(1,newValue);
+            preStmt.setString(2,oldValue);//或者：preStmt.setInt(1,值);
+            i=preStmt.executeUpdate();
+        }
+        catch (SQLException e) {
+            e.printStackTrace();
+        }
+//        return i;//返回影响的行数，1为执行成功
+    }
+
+
+
+
    //查询
-   public String Qurey(String key){
-        String sql = "select * from db_res where "+"key=?";
+   public void Qurey(String value){
+        String sql = "select  DISTINCT category_2 from ilearn_it_com where category_1='"+value+"'";
         Connection cnn = getConn();//此处为通过自己写的方法getConn()获得连接
         try
         {
             Statement stmt = cnn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
 
-            if(rs.next())
+            while(rs.next())
             {
-                int m1 = rs.getInt(1);//或者为rs.getString(1)，根据数据库中列的值类型确定，参数为第一列
-                String m2 = rs.getString(2);
+//                updateValue("其他",String.valueOf(rs.getInt("rid")));
+//                System.out.println("test : " + rs.getInt("rid"));
+                System.out.println(rs.getString("category_2"));
             }
             //可以将查找到的值写入类，然后返回相应的对象
         }
@@ -117,10 +159,18 @@ public class DBConnection {
         {
             e.printStackTrace();
         }
-        return (相应的值的变量);
+       // return (相应的值的变量);
     }
 
 
+    public void deal(){
+        String sql = "select category_2 from ilearn_it_com";
+        Connection cnn = getConn();//此处为通过自己写的方法getConn()获得连接
+
+    }
+
+
+/*
     //删除
         public int delete()  {
         String sql = "delete from (表名) where (列名)=(值)";
