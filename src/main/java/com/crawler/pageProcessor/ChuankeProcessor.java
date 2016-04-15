@@ -62,7 +62,7 @@ public class ChuankeProcessor implements PageProcessor {
         for(String url:sourceurl){
             if(!url.contains("channel")){//非广告页面才存储
                 try {
-                    dbConnection.temp(url);
+                    dbConnection.temp(url,"chuanke");
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }

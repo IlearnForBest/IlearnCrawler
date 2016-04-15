@@ -18,21 +18,21 @@ public class StartSpider {
 
 
 
-
-        db.updateSelf("category_2","工业设计","设计相关");
-        db.updateSelf("category_2","三维设计","设计相关");
-        db.updateSelf("category_2","页面设计","设计相关");
-        db.updateSelf("category_2","网站制作","设计相关");
-        db.updateSelf("category_2","平面设计","设计相关");
-        db.updateSelf("category_2","UI","设计相关");
-        db.updateSelf("category_2","CG动画","其他");
-        db.updateSelf("category_2","Web前端开发","全栈工程师");
-        db.updateSelf("category_2","游戏设计","设计相关");
+//
+//        db.updateSelf("category_2","工业设计","设计相关");
+//        db.updateSelf("category_2","三维设计","设计相关");
+//        db.updateSelf("category_2","页面设计","设计相关");
+//        db.updateSelf("category_2","网站制作","设计相关");
+//        db.updateSelf("category_2","平面设计","设计相关");
+//        db.updateSelf("category_2","UI","设计相关");
+//        db.updateSelf("category_2","CG动画","其他");
+//        db.updateSelf("category_2","Web前端开发","全栈工程师");
+//        db.updateSelf("category_2","游戏设计","设计相关");
 
 
 //        db.updateValue("移动开发","swift");
 
-        db.Qurey("前端开发");
+//        db.Qurey("前端开发");
         System.out.println("-----------------------");
 //        db.Qurey("后台开发");
 
@@ -55,9 +55,9 @@ public class StartSpider {
 //        spider.run();
 
 //        腾讯教育
-//        Spider spider = new  Spider(new TencentGetinfoProcessor());
-//        spider.addUrl("https://ke.qq.com/course/117307");
-//        spider.run();
+        Spider spider = new  Spider(new TencentGetinfoProcessor());
+        spider.addUrl("https://ke.qq.com/course/78497");
+        spider.run();
     }
 
 }
