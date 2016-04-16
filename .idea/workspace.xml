@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bfa80f-4e03-47e4-b119-27ccc8a79426" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/crawler/util/DBConnection.class" afterPath="$PROJECT_DIR$/target/classes/com/crawler/util/DBConnection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/crawler/StartSpider.class" afterPath="$PROJECT_DIR$/target/classes/com/crawler/StartSpider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IlearnCrawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,37 +30,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StartSpider.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StartSpider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.06153846">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java">
+      <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/Category.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
-                <marker date="1460298438875" expanded="true" signature="1200:1315" placeholder="insert into ..." />
-                <marker date="1460298438875" expanded="true" signature="2012:2059" placeholder="update ilear..." />
-                <marker date="1460298438875" expanded="true" signature="2548:2604" placeholder="update ilear..." />
-                <marker date="1460298438875" expanded="true" signature="2629:2678" placeholder="update ilear..." />
-                <marker date="1460298438875" expanded="true" signature="3186:3210" placeholder="update ilear..." />
-                <marker date="1460298438875" expanded="true" signature="3186:3227" placeholder="update ilear..." />
-                <marker date="1460298438875" expanded="true" signature="3186:3236" placeholder="update ilear..." />
-                <marker date="1460298438875" expanded="true" signature="3776:3828" placeholder="select * fro..db_it_com..." />
-                <marker date="1460298438875" expanded="true" signature="3776:3829" placeholder="select * fro..db_it_com..." />
-                <marker date="1460298438875" expanded="true" signature="3776:3841" placeholder="select rid f..ilearn_it_com..." />
-                <marker date="1460298438875" expanded="true" signature="3776:3851" placeholder="select rid f..ilearn_it_com..." />
-                <marker date="1460298438875" expanded="true" signature="3776:3852" placeholder="select categ..db_it_com..." />
-                <marker date="1460298438875" expanded="true" signature="5313:5489" placeholder="insert into ..." />
-                <marker date="1460298438875" expanded="true" signature="6293:6325" placeholder="insert into ..." />
-                <marker date="1460298438875" expanded="true" signature="6614:6648" placeholder="select * fro..temp..." />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.03770492">
+              <caret line="141" column="79" selection-start-line="141" selection-start-column="79" selection-end-line="141" selection-end-column="79" />
+              <folding>
+                <marker date="1460811799706" expanded="true" signature="1200:1315" placeholder="insert into ..." />
+                <marker date="1460811799706" expanded="true" signature="1998:2094" placeholder="insert into ..." />
+                <marker date="1460811799706" expanded="true" signature="2671:2718" placeholder="update ilear..." />
+                <marker date="1460811799706" expanded="true" signature="3214:3271" placeholder="update ilear..." />
+                <marker date="1460811799706" expanded="true" signature="3296:3345" placeholder="update ilear..." />
+                <marker date="1460811799706" expanded="true" signature="3860:3884" placeholder="update ilear..." />
+                <marker date="1460811799706" expanded="true" signature="3860:3901" placeholder="update ilear..." />
+                <marker date="1460811799706" expanded="true" signature="3860:3923" placeholder="update ilear..." />
+                <marker date="1460811799706" expanded="true" signature="4473:4519" placeholder="select categ..db_it_com..." />
+                <marker date="1460811799706" expanded="true" signature="5169:5215" placeholder="select DISTI..ilearn_it_com..." />
+                <marker date="1460811799706" expanded="true" signature="5169:5216" placeholder="select DISTI..ilearn_it_com..." />
+                <marker date="1460811799706" expanded="true" signature="5169:5255" placeholder="select DISTI..ilearn_it_com..." />
+                <marker date="1460811799706" expanded="true" signature="5169:5265" placeholder="select DISTI..ilearn_it_com..." />
+                <marker date="1460811799706" expanded="true" signature="6659:6835" placeholder="insert into ..." />
+                <marker date="1460811799706" expanded="true" signature="7639:7671" placeholder="insert into ..." />
+                <marker date="1460811799706" expanded="true" signature="7960:7994" placeholder="select * fro..temp..." />
               </folding>
             </state>
           </provider>
@@ -98,8 +115,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/pageProcessor/TencentGetinfoProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/pageProcessor/MoocProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crawler/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java" />
       </list>
     </option>
   </component>
@@ -118,10 +136,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="62" />
+    <option name="y" value="-9" />
+    <option name="width" value="1307" />
+    <option name="height" value="783" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -146,6 +164,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -223,10 +243,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IlearnCrawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IlearnCrawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,7 +280,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartSpider">
+  <component name="RunManager" selected="Application.Category">
     <configuration default="false" name="StartSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -257,6 +289,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.crawler.StartSpider" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IlearnCrawler" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Category" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.crawler.Category" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -518,12 +570,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.StartSpider" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Category" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.StartSpider" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Category" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StartSpider" />
       </list>
     </recent_temporary>
   </component>
@@ -545,43 +599,72 @@
       <workItem from="1459843721568" duration="7425000" />
       <workItem from="1459865631891" duration="778000" />
       <workItem from="1460287898558" duration="10721000" />
-      <workItem from="1460388549681" duration="1637000" />
+      <workItem from="1460388549681" duration="2054000" />
+      <workItem from="1460447047950" duration="5038000" />
+      <workItem from="1460811796147" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34956000" />
+    <option name="totallyTimeSpent" value="40416000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="62" y="-9" width="1307" height="783" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5451713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27098322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27098322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39719626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39719626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49688473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39719626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42056075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27098322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -606,6 +689,49 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1460811799706" expanded="true" signature="1200:1315" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="1998:2094" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="2671:2718" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3214:3271" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3296:3345" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3884" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3901" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3923" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="4473:4519" placeholder="select categ..db_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5215" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5216" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5255" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5265" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="6659:6835" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7639:7671" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7960:7994" placeholder="select * fro..temp..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -616,21 +742,55 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
           <folding>
-            <marker date="1460298438875" expanded="true" signature="1200:1315" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="2012:2059" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="2548:2604" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="2629:2678" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3210" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3227" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3236" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3828" placeholder="select * fro..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3829" placeholder="select * fro..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3841" placeholder="select rid f..ilearn_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3851" placeholder="select rid f..ilearn_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3852" placeholder="select categ..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="5313:5489" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="6293:6325" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="6614:6648" placeholder="select * fro..temp..." />
+            <marker date="1460811799706" expanded="true" signature="1200:1315" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="1998:2094" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="2671:2718" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3214:3271" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3296:3345" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3884" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3901" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3923" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="4473:4519" placeholder="select categ..db_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5215" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5216" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5255" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5265" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="6659:6835" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7639:7671" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7960:7994" placeholder="select * fro..temp..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+          <folding>
+            <marker date="1460811799706" expanded="true" signature="1200:1315" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="1998:2094" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="2671:2718" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3214:3271" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3296:3345" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3884" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3901" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3923" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="4473:4519" placeholder="select categ..db_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5215" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5216" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5255" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5265" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="6659:6835" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7639:7671" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7960:7994" placeholder="select * fro..temp..." />
           </folding>
         </state>
       </provider>
@@ -662,21 +822,22 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1460298438875" expanded="true" signature="1200:1315" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="2012:2059" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="2548:2604" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="2629:2678" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3210" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3227" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3236" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3828" placeholder="select * fro..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3829" placeholder="select * fro..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3841" placeholder="select rid f..ilearn_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3851" placeholder="select rid f..ilearn_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3852" placeholder="select categ..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="5313:5489" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="6293:6325" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="6614:6648" placeholder="select * fro..temp..." />
+            <marker date="1460811799706" expanded="true" signature="1200:1315" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="1998:2094" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="2671:2718" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3214:3271" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3296:3345" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3884" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3901" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3923" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="4473:4519" placeholder="select categ..db_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5215" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5216" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5255" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5265" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="6659:6835" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7639:7671" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7960:7994" placeholder="select * fro..temp..." />
           </folding>
         </state>
       </provider>
@@ -708,21 +869,22 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="184" column="51" selection-start-line="184" selection-start-column="51" selection-end-line="184" selection-end-column="51" />
           <folding>
-            <marker date="1460298438875" expanded="true" signature="1200:1315" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="2012:2059" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="2548:2604" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="2629:2678" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3210" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3227" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3236" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3828" placeholder="select * fro..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3829" placeholder="select * fro..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3841" placeholder="select rid f..ilearn_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3851" placeholder="select rid f..ilearn_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3852" placeholder="select categ..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="5313:5489" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="6293:6325" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="6614:6648" placeholder="select * fro..temp..." />
+            <marker date="1460811799706" expanded="true" signature="1200:1315" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="1998:2094" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="2671:2718" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3214:3271" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3296:3345" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3884" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3901" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3923" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="4473:4519" placeholder="select categ..db_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5215" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5216" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5255" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5265" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="6659:6835" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7639:7671" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7960:7994" placeholder="select * fro..temp..." />
           </folding>
         </state>
       </provider>
@@ -768,21 +930,22 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1460298438875" expanded="true" signature="1200:1315" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="2012:2059" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="2548:2604" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="2629:2678" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3210" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3227" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3236" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3828" placeholder="select * fro..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3829" placeholder="select * fro..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3841" placeholder="select rid f..ilearn_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3851" placeholder="select rid f..ilearn_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3852" placeholder="select categ..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="5313:5489" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="6293:6325" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="6614:6648" placeholder="select * fro..temp..." />
+            <marker date="1460811799706" expanded="true" signature="1200:1315" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="1998:2094" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="2671:2718" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3214:3271" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3296:3345" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3884" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3901" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3923" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="4473:4519" placeholder="select categ..db_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5215" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5216" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5255" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5265" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="6659:6835" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7639:7671" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7960:7994" placeholder="select * fro..temp..." />
           </folding>
         </state>
       </provider>
@@ -835,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3659148">
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,35 +1122,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
-          <folding>
-            <marker date="1460298438875" expanded="true" signature="1200:1315" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="2012:2059" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="2548:2604" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="2629:2678" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3210" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3227" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3186:3236" placeholder="update ilear..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3828" placeholder="select * fro..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3829" placeholder="select * fro..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3841" placeholder="select rid f..ilearn_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3851" placeholder="select rid f..ilearn_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="3776:3852" placeholder="select categ..db_it_com..." />
-            <marker date="1460298438875" expanded="true" signature="5313:5489" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="6293:6325" placeholder="insert into ..." />
-            <marker date="1460298438875" expanded="true" signature="6614:6648" placeholder="select * fro..temp..." />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.06153846">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03770492">
+          <caret line="141" column="79" selection-start-line="141" selection-start-column="79" selection-end-line="141" selection-end-column="79" />
+          <folding>
+            <marker date="1460811799706" expanded="true" signature="1200:1315" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="1998:2094" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="2671:2718" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3214:3271" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3296:3345" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3884" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3901" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="3860:3923" placeholder="update ilear..." />
+            <marker date="1460811799706" expanded="true" signature="4473:4519" placeholder="select categ..db_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5215" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5216" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5255" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="5169:5265" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460811799706" expanded="true" signature="6659:6835" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7639:7671" placeholder="insert into ..." />
+            <marker date="1460811799706" expanded="true" signature="7960:7994" placeholder="select * fro..temp..." />
+          </folding>
         </state>
       </provider>
     </entry>

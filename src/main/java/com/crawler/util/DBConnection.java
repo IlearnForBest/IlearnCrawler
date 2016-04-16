@@ -72,6 +72,27 @@ public class DBConnection {
     }
 
 
+    public void insertCate(String cate_name,String category_1,
+                       String category_2) {
+        int i=0;
+        String sql="insert into ilearn_category(cate_name,category_1," +
+                "category_2)  values(?,?,?)";
+        Connection cnn=getConn();
+
+        try{
+            PreparedStatement preStmt =cnn.prepareStatement(sql);
+            preStmt.setString(1,cate_name);
+            preStmt.setString(2,category_1);
+            preStmt.setString(3,category_2);
+            i=preStmt.executeUpdate();
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+        }
+//        return i;//返回影响的行数，1为执行成功
+    }
+
+
     /**
      * 更新
      * @param imgurl
@@ -95,17 +116,17 @@ public class DBConnection {
     }
 
 
-    public void updateValue( String value1 ,String value2){
+    public void updateValue( String category_2 ,String cate_name){
         int i=0;
-        String sql="update ilearn_it_com set category_1=? where category_2=?";
+        String sql="update ilearn_category set category_2=? where cate_name=?";
 //        String sql="update ilearn_it_com set category_2=? where rid=?";
 
         Connection cnn=getConn();
 
         try{
             PreparedStatement preStmt =cnn.prepareStatement(sql);
-            preStmt.setString(1,value1);
-            preStmt.setString(2,value2);//或者：preStmt.setInt(1,值);
+            preStmt.setString(1,category_2);
+            preStmt.setString(2,cate_name);//或者：preStmt.setInt(1,值);
             i=preStmt.executeUpdate();
         }
         catch (SQLException e) {
@@ -118,7 +139,7 @@ public class DBConnection {
 
     public void updateSelf( String key ,String oldValue , String newValue){
         int i=0;
-        String sql="update ilearn_it_com set "+key+"=? where "+key+"=?";
+        String sql="update ilearn_it_com set "+key+"=? where category_1 IS d ..NULL";
 //        String sql="update ilearn_it_com set category_2=? where rid=?";
 
         Connection cnn=getConn();
@@ -126,7 +147,7 @@ public class DBConnection {
         try{
             PreparedStatement preStmt =cnn.prepareStatement(sql);
             preStmt.setString(1,newValue);
-            preStmt.setString(2,oldValue);//或者：preStmt.setInt(1,值);
+//            preStmt.setString(2,oldValue);//或者：preStmt.setInt(1,值);
             i=preStmt.executeUpdate();
         }
         catch (SQLException e) {
@@ -139,9 +160,12 @@ public class DBConnection {
 
 
    //查询
-   public void Qurey(String value){
-        String sql = "select  DISTINCT category_2 from ilearn_it_com where category_1='"+value+"'";
+   public List<String> Qurey(String value){
+        String sql = "select  DISTINCT category_3 from ilearn_it_com";
         Connection cnn = getConn();//此处为通过自己写的方法getConn()获得连接
+
+       List<String> res = new ArrayList<>();
+
         try
         {
             Statement stmt = cnn.createStatement();
@@ -149,9 +173,8 @@ public class DBConnection {
 
             while(rs.next())
             {
-//                updateValue("其他",String.valueOf(rs.getInt("rid")));
-//                System.out.println("test : " + rs.getInt("rid"));
-                System.out.println(rs.getString("category_2"));
+                res.add(rs.getString("category_3"));
+//                System.out.println(rs.getString("category_3"));
             }
             //可以将查找到的值写入类，然后返回相应的对象
         }
@@ -159,8 +182,39 @@ public class DBConnection {
         {
             e.printStackTrace();
         }
-       // return (相应的值的变量);
+        return res;
     }
+
+
+
+
+    //查询
+    public String  QureyCate1(String value){
+        String sql = "select  DISTINCT category_2 from ilearn_it_com " +
+                "WHERE category_3='"+value+"'";
+        Connection cnn = getConn();//此处为通过自己写的方法getConn()获得连接
+
+        String res="";
+
+        try
+        {
+            Statement stmt = cnn.createStatement();
+            ResultSet rs = stmt.executeQuery(sql);
+
+            while(rs.next())
+            {
+                res = rs.getString("category_2");
+//                System.out.println(rs.getString("category_2"));
+            }
+            //可以将查找到的值写入类，然后返回相应的对象
+        }
+        catch (SQLException e)
+        {
+            e.printStackTrace();
+        }
+        return res;
+    }
+
 
 
     public void deal(){

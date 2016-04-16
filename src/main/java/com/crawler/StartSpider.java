@@ -19,14 +19,6 @@ public class StartSpider {
 
 
 
-        db.updateSelf("category_2","工业设计","设计相关");
-        db.updateSelf("category_2","三维设计","设计相关");
-        db.updateSelf("category_2","页面设计","设计相关");
-        db.updateSelf("category_2","网站制作","设计相关");
-        db.updateSelf("category_2","平面设计","设计相关");
-        db.updateSelf("category_2","UI","设计相关");
-        db.updateSelf("category_2","CG动画","其他");
-        db.updateSelf("category_2","Web前端开发","全栈工程师");
         db.updateSelf("category_2","游戏设计","设计相关");
 
 
