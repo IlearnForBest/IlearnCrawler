@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bfa80f-4e03-47e4-b119-27ccc8a79426" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/crawler/Category.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/crawler/util/DBConnection.class" afterPath="$PROJECT_DIR$/target/classes/com/crawler/util/DBConnection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/crawler/StartSpider.class" afterPath="$PROJECT_DIR$/target/classes/com/crawler/StartSpider.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IlearnCrawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,21 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9117647">
-              <caret line="1175" column="10" selection-start-line="1175" selection-start-column="10" selection-end-line="1175" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1406" column="17" selection-start-line="1406" selection-start-column="17" selection-end-line="1406" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoocPipeline.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/pipeline/MoocPipeline.java">
+      <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/Category.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -122,42 +116,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+            <state vertical-scroll-proportion="-0.10294118">
+              <caret line="414" column="30" selection-start-line="414" selection-start-column="30" selection-end-line="414" selection-end-column="30" />
               <folding>
                 <element signature="e#12488#12496#0" expanded="true" />
-                <marker date="1460861400602" expanded="true" signature="1198:1313" placeholder="insert into ..." />
-                <marker date="1460861400602" expanded="true" signature="1996:2092" placeholder="insert into ..." />
-                <marker date="1460861400602" expanded="true" signature="2669:2716" placeholder="update ilear..." />
-                <marker date="1460861400602" expanded="true" signature="3321:3378" placeholder="update ilear..." />
-                <marker date="1460861400602" expanded="true" signature="4003:4056" placeholder="update ilear..." />
-                <marker date="1460861400602" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
-                <marker date="1460861400602" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
-                <marker date="1460861400602" expanded="true" signature="7073:7249" placeholder="insert into ..." />
-                <marker date="1460861400602" expanded="true" signature="8070:8115" placeholder="insert into ..." />
-                <marker date="1460861400602" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
-                <marker date="1460861400602" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
-                <marker date="1460861400602" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
-                <marker date="1460861400602" expanded="true" signature="9337:9530" placeholder="insert into ..." />
-                <marker date="1460861400602" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
-                <marker date="1460861400602" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
-                <marker date="1460861400602" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
-                <marker date="1460861400602" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
-                <marker date="1460861400602" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
-                <marker date="1460861400602" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
-                <marker date="1460861400602" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
-                <marker date="1460861400602" expanded="true" signature="11179:11241" placeholder="update ilear..." />
-                <marker date="1460861400602" expanded="true" signature="11179:11242" placeholder="update ilear..." />
-                <marker date="1460861400602" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
-                <marker date="1460861400602" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
-                <marker date="1460861400602" expanded="true" signature="11889:11951" placeholder="insert into ..." />
-                <marker date="1460861400602" expanded="true" signature="12540:12608" placeholder="select title..ilearn_resources..." />
-                <marker date="1460861400602" expanded="true" signature="12540:12609" placeholder="select cate_..ilearn_resources..." />
-                <marker date="1460861400602" expanded="true" signature="13032:13143" placeholder="select cid f..ilearn_category..." />
-                <marker date="1460861400602" expanded="true" signature="13336:13385" placeholder="update ilear..." />
+                <marker date="1460861835082" expanded="true" signature="1198:1313" placeholder="insert into ..." />
+                <marker date="1460861835082" expanded="true" signature="1996:2092" placeholder="insert into ..." />
+                <marker date="1460861835082" expanded="true" signature="2669:2716" placeholder="update ilear..." />
+                <marker date="1460861835082" expanded="true" signature="3321:3378" placeholder="update ilear..." />
+                <marker date="1460861835082" expanded="true" signature="4003:4056" placeholder="update ilear..." />
+                <marker date="1460861835082" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
+                <marker date="1460861835082" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
+                <marker date="1460861835082" expanded="true" signature="7073:7249" placeholder="insert into ..." />
+                <marker date="1460861835082" expanded="true" signature="8070:8115" placeholder="insert into ..." />
+                <marker date="1460861835082" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
+                <marker date="1460861835082" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
+                <marker date="1460861835082" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
+                <marker date="1460861835082" expanded="true" signature="9337:9530" placeholder="insert into ..." />
+                <marker date="1460861835082" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
+                <marker date="1460861835082" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
+                <marker date="1460861835082" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
+                <marker date="1460861835082" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
+                <marker date="1460861835082" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
+                <marker date="1460861835082" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
+                <marker date="1460861835082" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
+                <marker date="1460861835082" expanded="true" signature="11179:11241" placeholder="update ilear..." />
+                <marker date="1460861835082" expanded="true" signature="11179:11242" placeholder="update ilear..." />
+                <marker date="1460861835082" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
+                <marker date="1460861835082" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
+                <marker date="1460861835082" expanded="true" signature="11889:11951" placeholder="insert into ..." />
+                <marker date="1460861835082" expanded="true" signature="12540:12612" placeholder="select title..ilearn_resources..." />
+                <marker date="1460861835082" expanded="true" signature="12540:12613" placeholder="select cate_..ilearn_resources..." />
+                <marker date="1460861835082" expanded="true" signature="13056:13167" placeholder="select cid f..ilearn_category..." />
+                <marker date="1460861835082" expanded="true" signature="13360:13407" placeholder="update ilear..." />
               </folding>
             </state>
           </provider>
@@ -201,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/Category.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java" />
       </list>
     </option>
@@ -751,7 +746,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40423000" />
+    <option name="totallyTimeSpent" value="40872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="-9" width="1307" height="783" extended-state="6" />
@@ -768,7 +763,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31464174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27178258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27178258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -804,14 +799,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/pageProcessor/MoocProcessorImg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/pageProcessor/TencentGetinfoProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -826,35 +813,35 @@
           <caret line="235" column="51" selection-start-line="235" selection-start-column="51" selection-end-line="235" selection-end-column="51" />
           <folding>
             <element signature="e#12488#12496#0" expanded="true" />
-            <marker date="1460861400602" expanded="true" signature="1198:1313" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="1996:2092" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="2669:2716" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="3321:3378" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4003:4056" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
-            <marker date="1460861400602" expanded="true" signature="7073:7249" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8070:8115" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="9337:9530" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11241" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11242" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11889:11951" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12608" placeholder="select title..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12609" placeholder="select cate_..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="13032:13143" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="13336:13385" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="1198:1313" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="1996:2092" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="2669:2716" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="3321:3378" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4003:4056" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460861835082" expanded="true" signature="7073:7249" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8070:8115" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="9337:9530" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11241" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11242" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11889:11951" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12612" placeholder="select title..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12613" placeholder="select cate_..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="13056:13167" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="13360:13407" placeholder="update ilear..." />
           </folding>
         </state>
       </provider>
@@ -889,35 +876,35 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#12488#12496#0" expanded="true" />
-            <marker date="1460861400602" expanded="true" signature="1198:1313" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="1996:2092" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="2669:2716" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="3321:3378" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4003:4056" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
-            <marker date="1460861400602" expanded="true" signature="7073:7249" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8070:8115" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="9337:9530" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11241" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11242" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11889:11951" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12608" placeholder="select title..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12609" placeholder="select cate_..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="13032:13143" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="13336:13385" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="1198:1313" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="1996:2092" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="2669:2716" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="3321:3378" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4003:4056" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460861835082" expanded="true" signature="7073:7249" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8070:8115" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="9337:9530" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11241" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11242" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11889:11951" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12612" placeholder="select title..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12613" placeholder="select cate_..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="13056:13167" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="13360:13407" placeholder="update ilear..." />
           </folding>
         </state>
       </provider>
@@ -952,35 +939,35 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#12488#12496#0" expanded="true" />
-            <marker date="1460861400602" expanded="true" signature="1198:1313" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="1996:2092" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="2669:2716" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="3321:3378" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4003:4056" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
-            <marker date="1460861400602" expanded="true" signature="7073:7249" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8070:8115" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="9337:9530" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11241" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11242" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11889:11951" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12608" placeholder="select title..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12609" placeholder="select cate_..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="13032:13143" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="13336:13385" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="1198:1313" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="1996:2092" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="2669:2716" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="3321:3378" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4003:4056" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460861835082" expanded="true" signature="7073:7249" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8070:8115" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="9337:9530" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11241" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11242" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11889:11951" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12612" placeholder="select title..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12613" placeholder="select cate_..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="13056:13167" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="13360:13407" placeholder="update ilear..." />
           </folding>
         </state>
       </provider>
@@ -1015,35 +1002,35 @@
           <caret line="180" column="51" selection-start-line="180" selection-start-column="51" selection-end-line="180" selection-end-column="51" />
           <folding>
             <element signature="e#12488#12496#0" expanded="true" />
-            <marker date="1460861400602" expanded="true" signature="1198:1313" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="1996:2092" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="2669:2716" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="3321:3378" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4003:4056" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
-            <marker date="1460861400602" expanded="true" signature="7073:7249" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8070:8115" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="9337:9530" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11241" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11242" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11889:11951" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12608" placeholder="select title..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12609" placeholder="select cate_..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="13032:13143" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="13336:13385" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="1198:1313" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="1996:2092" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="2669:2716" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="3321:3378" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4003:4056" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460861835082" expanded="true" signature="7073:7249" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8070:8115" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="9337:9530" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11241" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11242" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11889:11951" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12612" placeholder="select title..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12613" placeholder="select cate_..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="13056:13167" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="13360:13407" placeholder="update ilear..." />
           </folding>
         </state>
       </provider>
@@ -1078,35 +1065,35 @@
           <caret line="184" column="51" selection-start-line="184" selection-start-column="51" selection-end-line="184" selection-end-column="51" />
           <folding>
             <element signature="e#12488#12496#0" expanded="true" />
-            <marker date="1460861400602" expanded="true" signature="1198:1313" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="1996:2092" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="2669:2716" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="3321:3378" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4003:4056" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
-            <marker date="1460861400602" expanded="true" signature="7073:7249" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8070:8115" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="9337:9530" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11241" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11242" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11889:11951" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12608" placeholder="select title..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12609" placeholder="select cate_..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="13032:13143" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="13336:13385" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="1198:1313" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="1996:2092" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="2669:2716" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="3321:3378" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4003:4056" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460861835082" expanded="true" signature="7073:7249" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8070:8115" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="9337:9530" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11241" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11242" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11889:11951" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12612" placeholder="select title..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12613" placeholder="select cate_..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="13056:13167" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="13360:13407" placeholder="update ilear..." />
           </folding>
         </state>
       </provider>
@@ -1154,35 +1141,35 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#12488#12496#0" expanded="true" />
-            <marker date="1460861400602" expanded="true" signature="1198:1313" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="1996:2092" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="2669:2716" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="3321:3378" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4003:4056" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
-            <marker date="1460861400602" expanded="true" signature="7073:7249" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8070:8115" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="9337:9530" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11241" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11242" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11889:11951" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12608" placeholder="select title..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12609" placeholder="select cate_..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="13032:13143" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="13336:13385" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="1198:1313" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="1996:2092" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="2669:2716" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="3321:3378" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4003:4056" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460861835082" expanded="true" signature="7073:7249" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8070:8115" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="9337:9530" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11241" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11242" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11889:11951" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12612" placeholder="select title..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12613" placeholder="select cate_..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="13056:13167" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="13360:13407" placeholder="update ilear..." />
           </folding>
         </state>
       </provider>
@@ -1360,45 +1347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
-          <folding>
-            <element signature="e#12488#12496#0" expanded="true" />
-            <marker date="1460861400602" expanded="true" signature="1198:1313" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="1996:2092" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="2669:2716" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="3321:3378" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4003:4056" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
-            <marker date="1460861400602" expanded="true" signature="7073:7249" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8070:8115" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
-            <marker date="1460861400602" expanded="true" signature="9337:9530" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11241" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11179:11242" placeholder="update ilear..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="11889:11951" placeholder="insert into ..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12608" placeholder="select title..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="12540:12609" placeholder="select cate_..ilearn_resources..." />
-            <marker date="1460861400602" expanded="true" signature="13032:13143" placeholder="select cid f..ilearn_category..." />
-            <marker date="1460861400602" expanded="true" signature="13336:13385" placeholder="update ilear..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1409,9 +1357,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9117647">
-          <caret line="1175" column="10" selection-start-line="1175" selection-start-column="10" selection-end-line="1175" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1406" column="17" selection-start-line="1406" selection-start-column="17" selection-end-line="1406" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.10294118">
+          <caret line="414" column="30" selection-start-line="414" selection-start-column="30" selection-end-line="414" selection-end-column="30" />
+          <folding>
+            <element signature="e#12488#12496#0" expanded="true" />
+            <marker date="1460861835082" expanded="true" signature="1198:1313" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="1996:2092" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="2669:2716" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="3321:3378" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4003:4056" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="4821:4896" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="5550:5646" placeholder="select DISTI..ilearn_it_com..." />
+            <marker date="1460861835082" expanded="true" signature="7073:7249" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8070:8115" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8468" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8475" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="8444:8480" placeholder="select * fro..temp..." />
+            <marker date="1460861835082" expanded="true" signature="9337:9530" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10531" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="10468:10570" placeholder="select DISTI..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10940" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10941" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10967" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10978" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="10883:10994" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11241" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11179:11242" placeholder="update ilear..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11671" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11612:11672" placeholder="select DISTI..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="11889:11951" placeholder="insert into ..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12612" placeholder="select title..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="12540:12613" placeholder="select cate_..ilearn_resources..." />
+            <marker date="1460861835082" expanded="true" signature="13056:13167" placeholder="select cid f..ilearn_category..." />
+            <marker date="1460861835082" expanded="true" signature="13360:13407" placeholder="update ilear..." />
+          </folding>
         </state>
       </provider>
     </entry>
