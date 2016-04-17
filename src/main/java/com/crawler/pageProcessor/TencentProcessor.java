@@ -25,7 +25,7 @@ public class TencentProcessor implements PageProcessor{
         for(String url:sourceurl){
             if(url.contains("course")){
                 try {
-                    dbConnection.temp(url);
+                    dbConnection.temp(url,"Tencent");
                     i++;
 //                System.out.println(url);
                 } catch (SQLException e) {
