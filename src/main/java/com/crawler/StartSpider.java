@@ -19,7 +19,6 @@ public class StartSpider {
         DBConnection db = new DBConnection();
 
 
-
 //
 //        db.updateValue("IT/互联网", "移动开发");
 //        db.updateSelf("category_2","萌妹子教你玩转UI设计","UI设计");
@@ -31,6 +30,8 @@ public class StartSpider {
 //        db.updateSelf("category_2","UI","设计相关");
 //        db.updateSelf("category_2","CG动画","其他");
 //        db.updateSelf("category_2","Web前端开发","全栈工程师");
+//        db.updateSelf("category_2","游戏设计","设计相关");
+
 //        db.updateSelf("category_2","游戏设计","设计相关");
 
 
