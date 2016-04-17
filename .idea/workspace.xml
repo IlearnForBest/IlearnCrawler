@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45bfa80f-4e03-47e4-b119-27ccc8a79426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/crawler/pageProcessor/ChuankeGetinfoProcessor.class" afterPath="$PROJECT_DIR$/target/classes/com/crawler/pageProcessor/ChuankeGetinfoProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/crawler/util/DBConnection.class" afterPath="$PROJECT_DIR$/target/classes/com/crawler/util/DBConnection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/crawler/StartSpider.class" afterPath="$PROJECT_DIR$/target/classes/com/crawler/StartSpider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/crawler/pageProcessor/TencentGetinfoProcessor.class" afterPath="$PROJECT_DIR$/target/classes/com/crawler/pageProcessor/TencentGetinfoProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crawler/pageProcessor/ChuankeGetinfoProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/pageProcessor/ChuankeGetinfoProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/util/DBConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/StartSpider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crawler/pageProcessor/TencentGetinfoProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/pageProcessor/TencentGetinfoProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="45bfa80f-4e03-47e4-b119-27ccc8a79426" name="Default" comment="" />
     <ignored path="IlearnCrawler.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -718,12 +708,12 @@
       <workItem from="1460732423208" duration="3831000" />
       <workItem from="1460800148130" duration="18574000" />
       <workItem from="1460854112095" duration="1480000" />
-      <workItem from="1460859888410" duration="798000" />
+      <workItem from="1460859888410" duration="971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79531000" />
+    <option name="totallyTimeSpent" value="79704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="-9" width="1307" height="783" extended-state="6" />
