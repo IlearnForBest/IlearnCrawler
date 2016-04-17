@@ -403,13 +403,13 @@ public class DBConnection {
     public void addKey() {
         List<String> key = new ArrayList<String>();
         try {
-            String sql = "select  title,category_1,category_2,category_3 from ilearn_resources ";
+            String sql = "select  url,title,category_1,category_2,category_3 from ilearn_resources ";
             Connection cnn=getConn();
             Statement stmt = cnn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
             while(rs.next())
             {
-                key.add(rs.getString("title")+"@"+rs.getString("category_1")
+                key.add(rs.getString("url")+"@"+rs.getString("title")+rs.getString("category_1")
                         +rs.getString("category_2")+rs.getString("category_3"));
             }
             for(String k:key){
@@ -418,9 +418,9 @@ public class DBConnection {
 //                if(rs1.next()){
 //                    id = rs1.getInt("cid");
 //                }
-                String sql3 = "update ilearn_resources set rkey =? where title=?";
+                String sql3 = "update ilearn_resources set rkey =? where url=?";
                 PreparedStatement preStmt =cnn.prepareStatement(sql3);
-                preStmt.setString(1,k);
+                preStmt.setString(1,k.substring(k.indexOf("@")+1));
                 preStmt.setString(2,k.substring(0,k.indexOf("@")));
                 preStmt.executeUpdate();
             }
