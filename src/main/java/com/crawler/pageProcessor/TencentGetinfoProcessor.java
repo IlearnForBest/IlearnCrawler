@@ -56,7 +56,7 @@ public class TencentGetinfoProcessor implements PageProcessor {
         System.out.println("imgurl:_____________>"+imgurl);
 
 
-        if(page.getUrl().toString().equals("https://ke.qq.com/course/78497")){
+        if(page.getUrl().toString().equals("https://ke.qq.com/course/68498")){
             List<String> urls = dbConnection.qureyFromTemp();
             page.addTargetRequests(urls);
         }
